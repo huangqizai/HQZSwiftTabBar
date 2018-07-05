@@ -14,6 +14,11 @@
 		8897A70020EDC8F400A319D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8897A6FE20EDC8F400A319D8 /* LaunchScreen.storyboard */; };
 		8897A70B20EDC8F400A319D8 /* HQZSwiftTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A70A20EDC8F400A319D8 /* HQZSwiftTabBarTests.swift */; };
 		8897A71620EDC8F400A319D8 /* HQZSwiftTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A71520EDC8F400A319D8 /* HQZSwiftTabBarUITests.swift */; };
+		8897A72520EDC92200A319D8 /* CinemasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A72420EDC92200A319D8 /* CinemasViewController.swift */; };
+		8897A72720EDC92900A319D8 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A72620EDC92900A319D8 /* TaskViewController.swift */; };
+		8897A72920EDC93200A319D8 /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A72820EDC93200A319D8 /* MineViewController.swift */; };
+		8897A72D20EDC94900A319D8 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A72B20EDC94900A319D8 /* BaseTabBarController.swift */; };
+		8897A72E20EDC94900A319D8 /* Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8897A72C20EDC94900A319D8 /* Public.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		8897A71120EDC8F400A319D8 /* HQZSwiftTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQZSwiftTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8897A71520EDC8F400A319D8 /* HQZSwiftTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HQZSwiftTabBarUITests.swift; sourceTree = "<group>"; };
 		8897A71720EDC8F400A319D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8897A72420EDC92200A319D8 /* CinemasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemasViewController.swift; sourceTree = "<group>"; };
+		8897A72620EDC92900A319D8 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
+		8897A72820EDC93200A319D8 /* MineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		8897A72B20EDC94900A319D8 /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		8897A72C20EDC94900A319D8 /* Public.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Public.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,8 @@
 		8897A6F420EDC8F300A319D8 /* HQZSwiftTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				8897A72A20EDC94900A319D8 /* CustomTabBar */,
+				8897A72320EDC91800A319D8 /* ViewController */,
 				8897A6F520EDC8F300A319D8 /* AppDelegate.swift */,
 				8897A6F720EDC8F300A319D8 /* ViewController.swift */,
 				8897A6F920EDC8F300A319D8 /* Main.storyboard */,
@@ -123,6 +135,25 @@
 				8897A71720EDC8F400A319D8 /* Info.plist */,
 			);
 			path = HQZSwiftTabBarUITests;
+			sourceTree = "<group>";
+		};
+		8897A72320EDC91800A319D8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8897A72420EDC92200A319D8 /* CinemasViewController.swift */,
+				8897A72620EDC92900A319D8 /* TaskViewController.swift */,
+				8897A72820EDC93200A319D8 /* MineViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8897A72A20EDC94900A319D8 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8897A72B20EDC94900A319D8 /* BaseTabBarController.swift */,
+				8897A72C20EDC94900A319D8 /* Public.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +288,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8897A6F820EDC8F300A319D8 /* ViewController.swift in Sources */,
+				8897A72720EDC92900A319D8 /* TaskViewController.swift in Sources */,
+				8897A72D20EDC94900A319D8 /* BaseTabBarController.swift in Sources */,
 				8897A6F620EDC8F300A319D8 /* AppDelegate.swift in Sources */,
+				8897A72E20EDC94900A319D8 /* Public.swift in Sources */,
+				8897A72520EDC92200A319D8 /* CinemasViewController.swift in Sources */,
+				8897A72920EDC93200A319D8 /* MineViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
